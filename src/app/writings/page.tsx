@@ -21,7 +21,7 @@ export default function WritingPage(){
 
             <main className="container mx-auto px-4 py-12">
                 <h1 className="text-4xl font-bold">Writings</h1>
-                <p className="text-gray-600 mt-4">Welcome to my writings page! Here, I showcase some of the writings I've worked on. I hope you enjoy looking through them!</p>
+                <p className="text-gray-600 mt-4">Welcome to my writings page! Here, I showcase some of the writings I&apos;ve worked on. I hope you enjoy looking through them!</p>
             </main>
 
             <footer className="container mx-auto px-4 py-8 mt-12 text-center text-gray-600">
