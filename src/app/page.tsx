@@ -64,7 +64,7 @@ export default function Home() {
 
         <div className='space-y-10 pt-8'>
             <h1 className="text-2xl mt-8">Projects</h1>
-            <p className="text-black mt-4 text-sm"> I like to make cool projects that people will enjoy! </p>
+            <p className="text-black mt-4 text-sm"> Software is an effective mean to add value to people&apos;s lives. I like to make cool projects that people will enjoy!</p>
             <div className="flex items-start">
                 <Image src="/colorchess2.png" alt="Color Chess" width={200} height={500} className="rounded-lg" />
                 <div className="ml-8 pl-8">
