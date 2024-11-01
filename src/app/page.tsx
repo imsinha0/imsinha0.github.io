@@ -72,6 +72,9 @@ export default function Home() {
                 <p className='text-black text-sm'> A chess variant with each player constrained to move to a color chosen by the other player. </p>
                 <p className='text-black text-sm'> Built using NextJS, ShadcnUI, TailwindCSS</p>
                 <Link href="https://github.com/imsinha0/colorchess" rel="noopener noreferrer" target="_blank" className="text-sm text-blue-600 hover:text-blue-800">Project</Link>
+                <div className='mt-1'>
+                <Link href="https://imsinha0.github.io/colorchess" rel="noopener noreferrer" target="_blank" className="text-sm text-blue-600 hover:text-blue-800 mt-4">Website</Link>
+                </div>
                 </div>
             </div>
         </div>

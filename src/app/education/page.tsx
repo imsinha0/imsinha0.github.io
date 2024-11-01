@@ -32,6 +32,8 @@ export default function EducationPage(){
           <li> Data Structures and Algorithms (CS 1240)</li>
           <li> Machine Learning (CS 1810)</li>
           <li> Biological and Artificial Intelligence (Neuro 140)</li>
+          <li> Introduction to Probability (Stat 110)</li>
+          <li> Introduction to Statistical Inference (Stat 111)</li>
       
         </ul>
       </div>
