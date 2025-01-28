@@ -1,7 +1,7 @@
 
-import Link from 'next/link';
-import { Button } from "@/components/ui/button";
 
+import { Button } from "@/components/ui/button";
+import Link from 'next/link';
 
 export default function EducationPage(){
     return(
@@ -28,10 +28,10 @@ export default function EducationPage(){
         <ul className="list-disc pl-5 pt-2 space-y-2 text-sm">
           <li>Studies in Algebra and Group Theory (Math 55a)</li>
           <li> Studies in Real and Complex Analysis (Math 55b)</li>
+          <li> Differential Topology (Math 132)</li>
           <li> Introduction to Theoretical Computer Science (CS 1210)</li>
           <li> Data Structures and Algorithms (CS 1240)</li>
           <li> Machine Learning (CS 1810)</li>
-          <li> Biological and Artificial Intelligence (Neuro 140)</li>
           <li> Introduction to Probability (Stat 110)</li>
           <li> Introduction to Statistical Inference (Stat 111)</li>
       
@@ -50,9 +50,9 @@ export default function EducationPage(){
           <li>Single Variable Analysis (MAT215)</li>
           <li> Multivariable Analysis (MAT300)</li>
           <li> Linear Algebra (MAT217)</li>
-          <li> Topology (MAT365)</li>
-          <li> Fourier Analysis (MAT325)</li>
-          <li> Measure Theory (MAT425)</li>
+          {/* <li> Topology (MAT365)</li> */}
+          {/* <li> Fourier Analysis (MAT325)</li> */}
+          {/* <li> Measure Theory (MAT425)</li> */}
         </ul>
       </div>
 
@@ -60,7 +60,7 @@ export default function EducationPage(){
           <h3 className="text-l font-semibold">South Brunswick High School</h3>
           <span className="text-gray-600">2020 — 2024</span>
         </div>
-        <p className="italic text-l">Valedictorian</p>
+        <p className="italic text-l">Valedictorian (Top 1/750, 4.0)</p>
 
 
 

@@ -10,6 +10,7 @@ export default function Home() {
           <Link href="/" className="text-3xl font-bold">Ishaan Sinha</Link>
           <div className="space-x-5">
         <Link href="/education"><Button variant="ghost">Education</Button></Link>
+        <Link href="/books"><Button variant="ghost">Reading</Button></Link>
         </div>
         </nav>
       </header>
@@ -19,7 +20,7 @@ export default function Home() {
           <div className="flex-1">
             <p className="text-black mt-4 text-sm">
               I am an undergraduate student at <Link href="https://www.harvard.edu/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:text-blue-800">Harvard University </Link>
-              studying mathematics and computer science. I&apos;m interested in deep generative modeling, biologically plausible models, and AI applications to science.
+              studying mathematics and computer science. I&apos;m interested in the theoretical guarantees of deep learning, deep generative modeling, and biologically plausible models.
             </p>
 
             <p className="text-black mt-4 text-sm">
