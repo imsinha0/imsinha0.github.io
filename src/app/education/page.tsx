@@ -21,10 +21,10 @@ export default function EducationPage(){
           <h3 className="text-l font-semibold">Harvard University</h3>
           <span className="text-gray-600">2024 — 2028</span>
         </div>
-        <p className="italic text-m">A.B. in Mathematics and Computer Science</p>
+        <p className="italic text-m">A.B. in Mathematics and Computer Science (4.0)</p>
 
         <div>
-        <h3 className="text-m font-semibold mb-2 pt-2">Technical Coursework:</h3>
+        <h3 className="text-m font-semibold mb-2 pt-2">Undergraduate Technical Coursework:</h3>
         <ul className="list-disc pl-5 pt-2 space-y-2 text-sm">
           <li>Studies in Algebra and Group Theory (Math 55a)</li>
           <li> Studies in Real and Complex Analysis (Math 55b)</li>
@@ -35,6 +35,15 @@ export default function EducationPage(){
           <li> Introduction to Probability (Stat 110)</li>
           <li> Introduction to Statistical Inference (Stat 111)</li>
       
+        </ul>
+        <h3 className="text-m font-semibold mb-2 pt-2">Graduate Technical Coursework:</h3>
+        <ul className="list-disc pl-5 pt-2 space-y-2 text-sm">
+        <li>Quantum Learning Theory (CS 2233)</li>
+        <li>High Dimensional Information Processing (APMTH 254)</li>
+        <li> Differential Analysis (MIT 18.155)</li>
+        <li> Probability (Stat 210)</li>
+        <li> AI Alignment (CS 2881R)</li>
+        <li>Optimized Democracy (CS 2380)</li>
         </ul>
       </div>
 
@@ -50,9 +59,9 @@ export default function EducationPage(){
           <li>Single Variable Analysis (MAT215)</li>
           <li> Multivariable Analysis (MAT300)</li>
           <li> Linear Algebra (MAT217)</li>
-          {/* <li> Topology (MAT365)</li> */}
-          {/* <li> Fourier Analysis (MAT325)</li> */}
-          {/* <li> Measure Theory (MAT425)</li> */}
+          <li> Topology (MAT365)</li>
+          <li> Fourier Analysis (MAT325)</li>
+           <li> Measure Theory (MAT425)</li>
         </ul>
       </div>
 

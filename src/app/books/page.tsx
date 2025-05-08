@@ -17,6 +17,12 @@ export default function BooksPage() {
             year: 2024,
             thoughts: "Humorously recounts Feynman's life and experiences, opens eyes to other side of Feynman's personality."
         },
+        {
+            title: "Ender's Game",
+            author: "Orson Scott Card",
+            year: 2023,
+            thoughts: "Dystopian society showing the value of perception over truth."
+        }
         // Add more books as needed
     ];
 

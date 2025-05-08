@@ -22,6 +22,9 @@ export default function Home() {
               I am an undergraduate student at <Link href="https://www.harvard.edu/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:text-blue-800">Harvard University </Link>
               studying mathematics and computer science. I&apos;m interested in the theoretical guarantees of deep learning, deep generative modeling, and biologically plausible models.
             </p>
+            <p className="text-black mt-4 text-sm">
+              I am interning at Amazon Web Services as a Software Development Engineer during Summer 2025 in New York City.
+            </p>
 
             <p className="text-black mt-4 text-sm">
                 Currently, I am a student researcher at Harvard&apos;s <Link href="https://cse-lab.seas.harvard.edu/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:text-blue-800">Computer Science and Engineering Lab</Link>, working on diffusion models for text-to-video modeling. I am also a student researcher at the <Link href="https://klab.tch.harvard.edu/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:text-blue-800">Kreiman Lab</Link>, associated with Harvard Medical School and Boston Children&apos;s Hospital, working on understanding visual search in biological and artifical intelligence.
