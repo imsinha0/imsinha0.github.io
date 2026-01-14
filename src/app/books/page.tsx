@@ -37,20 +37,20 @@ export default function BooksPage() {
 
     return (
         <div className="min-h-screen bg-gray-100">
-            <main className="container mx-auto px-4 sm:px-6 lg:px-60 py-12">
-                <h1 className="text-3xl font-bold mb-8">Reading</h1>
-                <div className="space-y-6">
+            <main className="container mx-auto px-4 sm:px-6 lg:px-60 py-8 sm:py-12">
+                <h1 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8">Reading</h1>
+                <div className="space-y-4 sm:space-y-6">
                     {sortedBooks.map((book, index) => (
                         <div 
                             key={index} 
-                            className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-200"
+                            className="bg-white p-4 sm:p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-200"
                         >
-                            <div className="flex justify-between items-start mb-2">
+                            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 sm:gap-0 mb-2">
                                 <div className="flex-1">
-                                    <h2 className="text-xl font-semibold text-gray-900 mb-1">{book.title}</h2>
+                                    <h2 className="text-lg sm:text-xl font-semibold text-gray-900 mb-1">{book.title}</h2>
                                     <p className="text-gray-600 text-sm mb-2">by {book.author}</p>
                                 </div>
-                                <span className="text-xs text-gray-400 font-medium bg-gray-50 px-2 py-1 rounded">
+                                <span className="text-xs text-gray-400 font-medium bg-gray-50 px-2 py-1 rounded self-start sm:self-auto">
                                     {book.year}
                                 </span>
                             </div>

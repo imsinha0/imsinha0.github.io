@@ -13,16 +13,16 @@ export default function Header() {
   ]
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-gray-100 pt-6">
+    <header className="sticky top-0 z-50 w-full bg-gray-100 pt-4 sm:pt-6">
       <nav className="container mx-auto px-4 sm:px-6 lg:px-60">
-        <div className="flex h-16 items-center justify-between flex-wrap gap-2">
+        <div className="flex h-auto sm:h-16 items-center justify-between flex-wrap gap-3 sm:gap-2 py-2 sm:py-0">
           <Link 
             href="/" 
-            className="text-2xl sm:text-3xl font-bold hover:text-gray-700 transition-colors"
+            className="text-xl sm:text-2xl md:text-3xl font-bold hover:text-gray-700 transition-colors"
           >
             Ishaan Sinha
           </Link>
-          <div className="flex items-center space-x-1 flex-wrap">
+          <div className="flex items-center space-x-1 flex-wrap gap-1">
             {navLinks.map((link) => {
               const isActive = pathname === link.href
               return (
@@ -30,7 +30,7 @@ export default function Header() {
                   <Button 
                     variant="ghost" 
                     size="default"
-                    className={`text-gray-500 ${isActive ? 'font-bold text-gray-700' : ''}`}
+                    className={`text-gray-500 text-sm sm:text-base ${isActive ? 'font-bold text-gray-700' : ''}`}
                   >
                     {link.label}
                   </Button>

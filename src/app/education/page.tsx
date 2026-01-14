@@ -4,9 +4,9 @@ export default function EducationPage(){
         <div className="min-h-screen bg-gray-100">
         <main className="container mx-auto px-4 sm:px-6 lg:px-60 py-8">
 
-        <div className="flex justify-between items-baseline mb-1">
+        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 sm:gap-0 mb-1">
           <h3 className="text-l font-semibold">Harvard University</h3>
-          <span className="text-gray-600">2024 — 2028</span>
+          <span className="text-gray-600 text-sm sm:text-base">2024 — 2028</span>
         </div>
         <p className="italic text-m mb-4">A.B. in Mathematics and Computer Science</p>
         <p className="text-xs text-gray-500 mb-4">* denotes graduate-level courses</p>
@@ -48,12 +48,12 @@ export default function EducationPage(){
           </div>
         </div>
 
-      <div className="flex justify-between items-baseline mb-1 pt-8">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 sm:gap-0 mb-1 pt-6 sm:pt-8">
           <h3 className="text-l font-semibold">South Brunswick High School</h3>
-          <span className="text-gray-600">2020 — 2024</span>
+          <span className="text-gray-600 text-sm sm:text-base">2020 — 2024</span>
         </div>
         <p className="italic text-l mb-2">Valedictorian (Top 1/750, 4.0)</p>
-        <p className="text-sm mb-2">
+        <p className="text-xs sm:text-sm mb-2 leading-relaxed">
           <span className="font-semibold">Princeton University:</span>{' '}
           Single Variable Analysis (MAT215), Multivariable Analysis (MAT300), Linear Algebra (MAT217), Topology (MAT365), Fourier Analysis (MAT325), Measure Theory (MAT425)
         </p>
