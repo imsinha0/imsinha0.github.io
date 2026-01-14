@@ -22,7 +22,7 @@ export default function Home() {
 
         
         <p className="text-black mt-4">
-          I am an undergraduate student at <Link href= "https://www.harvard.edu/" rel="noopener noreferrer" target="_blank" className=' text-blue-600 hover:text-blue-800'> Harvard University </Link>
+          I am an undergraduate student at <Link href= "https://www.harvard.edu/" rel="noopener noreferrer" target="_blank" className='text-blue-600 hover:text-blue-800 underline decoration-blue-300 underline-offset-2 hover:decoration-blue-500 transition-all duration-200'> Harvard University </Link>
            studying mathematics and computer science.
         </p>
 

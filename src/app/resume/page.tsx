@@ -3,7 +3,7 @@
 
 export default function ResumePage() {
     return (
-        <div className="min-h-screen bg-gradient-to-b from-gray-100 to-white flex justify-center items-center p-8">
+        <div className="min-h-screen bg-gray-100 flex justify-center items-center p-8">
             <iframe 
                 src="/IshaanResume.pdf" 
                 title="Resume" 
