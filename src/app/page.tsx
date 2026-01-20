@@ -51,7 +51,7 @@ export default function Home() {
 
         <div>
         <h1 className="text-2xl sm:text-3xl mt-8">Research</h1>
-        <p className="text-black mt-4 text-sm sm:text-base"> I am motivated by the study of intelligence, at the intersection of deep learning and the sciences. </p>
+        <p className="text-black mt-4 text-sm sm:text-base"> I am motivated by the study of mathematical and scientific intelligence. </p>
         
         <div className="flex flex-col gap-6 sm:gap-8 mt-5">
           <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
@@ -112,7 +112,6 @@ export default function Home() {
             
             <p className="text-black mt-4 text-sm sm:text-base">
                 I love playing <Link href="https://www.chess.com/member/bob321326" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:text-blue-800 underline decoration-blue-300 underline-offset-2 hover:decoration-blue-500 transition-all duration-200">bullet chess</Link>, reading philosophy, and watching tennis.
-                I am constantly motivated by the desire to create products to ease the human experience.
                  </p>
 
         </div>
